@@ -11,7 +11,7 @@ import os
 
 
 def converting_video_ffmpeg(framerate,file_path,file_path_out):
-    os.system('cmd /k ffmpeg -r {0} -f image2 -i "{1}%d.jpg" -vcodec libx264 -crf 25  -pix_fmt yuv420p "{2}.mp4"'.format(framerate,file_path,file_path_out))
+    os.system('cmd /K ffmpeg -r {0} -f image2 -i "{1}%d.jpg" -vcodec libx264 -crf 25  -pix_fmt yuv420p "{2}.mp4"'.format(framerate,file_path,file_path_out))
     return ('ffmpeg -r {0} -f image2 -i "{1}%d.jpg" -vcodec libx264 -crf 25  -pix_fmt yuv420p "{2}.mp4"'.format(framerate,file_path,file_path_out))
 
 
