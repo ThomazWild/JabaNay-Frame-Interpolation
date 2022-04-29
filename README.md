@@ -4,7 +4,7 @@
 
 A Project utilizing motion-compensated frame interpolation (**MCFI**) Using Optical flow to double the frame frate of Input Videos.
 
-![enter image description here](https://nanonets.com/blog/content/images/2019/04/sparse-vs-dense.gif)
+![Optical Flow demonstration](https://github.com/ThomazWild/JabaNay-Frame-Interpolation/blob/master/Optical%20Flow%20from%20Car%20motion.gif)
 
 Utilized Technologies: Python, Jupyter Notebook, Tensorflow.
 
